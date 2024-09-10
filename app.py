@@ -101,7 +101,7 @@ def extract_audio_and_transcribe(video_path):
 
 # Initialize Groq LLM
 llm = ChatGroq(
-    groq_api_key="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",
+    groq_api_key="Your api key",
     model="llama-3.1-70b-Versatile",
     temperature=0.7
 )
